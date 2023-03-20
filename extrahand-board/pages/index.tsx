@@ -29,6 +29,7 @@ export default function Home(props: HomeProps) {
         term,
         fullTime:type,
         location,
+        page,
       }),
     })
     .then((res) => res.json())

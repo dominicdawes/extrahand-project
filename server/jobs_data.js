@@ -25,7 +25,7 @@ const job_board_data = [
         "location": "New York City, NY",
         "title": "Data Scientist II",      
         "description": description,  
-        "how_to_apply": "<p><a href='https://github.com/about/careers'>Apply on company site</a></p>",  
+        "how_to_apply": "<p><a href='https://www.metacareers.com/'>Apply on company site</a></p>",  
         "company_logo": "https://logos-world.net/wp-content/uploads/2021/10/Meta-facebook-New-Logo.png"
     },
     {
@@ -51,8 +51,47 @@ const job_board_data = [
         "location": "San Jose, CA",
         "title": "Backend Engineer",      
         "description": description,
-        "how_to_apply": "<p><a href='https://www.metacareers.com/'>Apply on company site</a></p>",  
+        "how_to_apply": "<p><a href='https://github.com/about/careers'>Apply on company site</a></p>",  
         "company_logo": "http://cdn.onlinewebfonts.com/svg/img_326384.png"
+    },
+    {
+        "id": "10378",             
+        "type": "Full-Time",          
+        "url": "www.github.jobs",     
+        "created_at": "Thu Mar 16 09:19:41 UTC 2023",     
+        "company": "JP Morgan",        
+        "company_url": "companyjob.com",  
+        "location": "New York City, NY",
+        "title": "Backend Engineer",      
+        "description": description,
+        "how_to_apply": "<p><a href='https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000086152753'>Apply on company site</a></p>",  
+        "company_logo": "https://logos-world.net/wp-content/uploads/2021/02/JP-Morgan-Chase-Emblem.png"
+    },
+    {
+        "id": "89582",             
+        "type": "Full-Time",          
+        "url": "www.github.jobs",     
+        "created_at": "Thu Mar 16 09:19:41 UTC 2023",     
+        "company": "Twitter",        
+        "company_url": "companyjob.com",  
+        "location": "San Fancisco, CA",
+        "title": "Backend Engineer",      
+        "description": description,
+        "how_to_apply": "<p><a href='https://careers.twitter.com/'>Apply on company site</a></p>",  
+        "company_logo": "https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png"
+    },
+    {
+        "id": "12982",             
+        "type": "Full-Time",          
+        "url": "www.github.jobs",     
+        "created_at": "Thu Mar 16 09:19:41 UTC 2023",     
+        "company": "Klarna",        
+        "company_url": "companyjob.com",  
+        "location": "San Fancisco, CA",
+        "title": "Backend Engineer",      
+        "description": description,
+        "how_to_apply": "<p><a href='https://www.klarna.com/careers/openings/'>Apply on company site</a></p>",  
+        "company_logo": "https://media.glassdoor.com/sqll/389854/klarna-squarelogo-1565789506433.png"
     }
 ]
 
