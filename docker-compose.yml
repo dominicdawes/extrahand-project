@@ -1,0 +1,25 @@
+## 
+version: "3.7"
+
+#
+services: 
+  backendhost:
+    build: /server/ # path to Dockerfile
+    ports: 
+      - '5000:5000'
+    networks: 
+      - extrahand-compose-net
+
+  frontendhost:
+    build: /extrahand-board/ # path to Dockerfile
+    depends_on: 
+      - backendhost
+    ports: 
+      - '3000:3000'
+    networks: 
+      - extrahand-compose-net
+        
+
+networks:
+  extrahand-compose-net:
+    driver: bridge

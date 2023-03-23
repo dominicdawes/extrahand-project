@@ -1,6 +1,7 @@
 export const DUMMY_URL = "https://dummyjson.com/users?limit=5"
 export const API_URL = "https://jobs.github.com/positions"
-export const LOCAL_URL = "http://localhost:5000"
+// export const LOCAL_URL = "http://localhost:5000"
+export const LOCAL_URL = "http://backendhost:5000"
 
 export interface GithubJob {
     id:             string;
